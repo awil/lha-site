@@ -33,7 +33,7 @@ $CopyPlats = $_POST["CopyPlats"];
 $PlatsCopies = $_POST["PlatsCopies"];
 $OtherInfo = $_POST["OtherInfo"];
 
-$to = "la.homeabstract@yahoo.com, orders@lahomeabstract.com";
+$to = "email@yahoo.com, orders@website.com";
 $subject = "Abstract request from: $name";
 $headers = "From: $name $email\n";
 
@@ -72,7 +72,7 @@ Other Information or requirements: $OtherInfo";
 
 $user = "$email";
 $usersubject = "Thank You";
-$userheaders = "From Leah Brown\n";
+$userheaders = "From [Name here]\n";
 
 $usermessage = "Thank you for submitting your Abstract request.";
 
